@@ -80,7 +80,9 @@ jobs:
           git add -A
           git commit -m "Fix Python 3 Scapy template serialization
 
-Return Base64 template content as JSON-safe text and add regression coverage for the RPC contract.
+          Return Base64 template content as JSON-safe text and add regression coverage for the RPC contract.
 
-Signed-off-by: Pourya Alinezhad <95608426+PouryaAlinezhad@users.noreply.github.com>"
+          Signed-off-by: Pourya Alinezhad <95608426+PouryaAlinezhad@users.noreply.github.com>"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+
+# Retriggered after enabling GitHub Actions for the fork.
